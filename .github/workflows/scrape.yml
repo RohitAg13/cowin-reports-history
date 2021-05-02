@@ -1,0 +1,27 @@
+name: Scrape daily reports
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron:  '0 2 * * *'
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v2
+    - name: Fetch latest data
+      run: |-
+        current_date=$(date +%Y-%m-%d)
+        curl https://api.cowin.gov.in/api/v1/reports/v2/getPublicReports?state_id=&district_id=&date=${current_date} | jq . > registration.json
+        curl https://api.cowin.gov.in/api/v1/reports/v2/getVacPublicReports?state_id=&district_id=&date=${current_date} | jq . > vaccination.json
+    - name: Commit and push if it changed
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Latest data: ${timestamp}" || exit 0
+        git push
