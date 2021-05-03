@@ -15,8 +15,8 @@ jobs:
     - name: Fetch latest data
       run: |-
         current_date=$(date +%Y-%m-%d)
-        curl https://api.cowin.gov.in/api/v1/reports/v2/getPublicReports?state_id=&district_id=&date=${current_date} | jq . > registration.json
-        curl https://api.cowin.gov.in/api/v1/reports/v2/getVacPublicReports?state_id=&district_id=&date=${current_date} | jq . > vaccination.json
+        curl "https://api.cowin.gov.in/api/v1/reports/v2/getPublicReports?state_id=&district_id=&date=${current_date}" | jq . > registration.json
+        curl "https://api.cowin.gov.in/api/v1/reports/v2/getVacPublicReports?state_id=&district_id=&date=${current_date}" | jq . > vaccination.json
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
