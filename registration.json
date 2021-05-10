@@ -1,61 +1,54 @@
 {
   "topBlock": {
     "sites": {
-      "total": 38176,
-      "govt": 37265,
-      "pvt": 911,
+      "total": 52655,
+      "govt": 51106,
+      "pvt": 1549,
       "today": null
     },
     "sessions": {
-      "total": 5185852,
-      "govt": 5080154,
-      "pvt": 105698,
+      "total": 7364957,
+      "govt": 7176939,
+      "pvt": 188018,
       "today": null
     },
     "registration": {
-      "total": 191245052,
-      "cit_18_45": 60420847,
-      "cit_45_above": 130824205,
-      "today": 121377
+      "total": 193955125,
+      "cit_18_45": 62564417,
+      "cit_45_above": 131390708,
+      "today": 132976
     },
     "vaccination": {
-      "total": 133371261,
-      "male": 69901796,
-      "female": 63451413,
-      "others": 18052,
-      "covishield": 151307226,
-      "covaxin": 16196039,
-      "today": 76,
-      "tot_dose_1": 133371261,
-      "tot_dose_2": 34132004,
-      "total_doses": 167503265,
-      "aefi": 20212,
-      "today_dose_one": 36,
-      "today_dose_two": 40,
-      "today_male": 45,
-      "today_female": 31,
+      "total": 133857884,
+      "male": 70188048,
+      "female": 63651687,
+      "others": 18149,
+      "covishield": 151989208,
+      "covaxin": 16321448,
+      "today": 778,
+      "tot_dose_1": 133857884,
+      "tot_dose_2": 34452772,
+      "total_doses": 168310656,
+      "aefi": 20234,
+      "today_dose_one": 78,
+      "today_dose_two": 700,
+      "today_male": 429,
+      "today_female": 349,
       "today_others": 0,
       "today_aefi": 0
     }
   },
   "vaccinationDoneByTime": [
     {
-      "ts": "2021-05-09 07",
-      "timestamps": "2021-05-09T08:00:00.000Z",
+      "ts": "2021-05-10 07",
+      "timestamps": "2021-05-10T08:00:00.000Z",
       "label": "07:00-08:00",
-      "count": 74,
-      "dose_one": 34,
-      "dose_two": 40
+      "count": 730,
+      "dose_one": 62,
+      "dose_two": 668
     }
   ],
   "last7DaysRegistration": [
-    {
-      "reg_date": "2021-05-02",
-      "total": 2657187,
-      "male": 1491063,
-      "female": 1165084,
-      "others": 1040
-    },
     {
       "reg_date": "2021-05-03",
       "total": 3483172,
@@ -97,13 +90,16 @@
       "male": 1787567,
       "female": 1435652,
       "others": 1195
+    },
+    {
+      "reg_date": "2021-05-09",
+      "total": 2698478,
+      "male": 1514376,
+      "female": 1182961,
+      "others": 1141
     }
   ],
   "last30DaysAefi": [
-    {
-      "vaccine_date": "2021-04-09",
-      "aefi": 66
-    },
     {
       "vaccine_date": "2021-04-10",
       "aefi": 54
@@ -219,16 +215,13 @@
     {
       "vaccine_date": "2021-05-08",
       "aefi": 100
+    },
+    {
+      "vaccine_date": "2021-05-09",
+      "aefi": 11
     }
   ],
   "last5daySessionStatus": [
-    {
-      "session_date": "2021-04-09",
-      "total": 60347,
-      "planned": 14866,
-      "ongoing": 17113,
-      "completed": 28368
-    },
     {
       "session_date": "2021-04-10",
       "total": 56164,
@@ -431,6 +424,13 @@
       "planned": 11835,
       "ongoing": 10351,
       "completed": 15755
+    },
+    {
+      "session_date": "2021-05-09",
+      "total": 21509,
+      "planned": 11492,
+      "ongoing": 4610,
+      "completed": 5407
     }
   ],
   "getBeneficiariesGroupBy": [
@@ -439,9 +439,9 @@
       "id": 1,
       "title": "Andaman and Nicobar Islands",
       "state_name": "Andaman and Nicobar Islands",
-      "total": 111168,
-      "partial_vaccinated": 97639,
-      "totally_vaccinated": 13529,
+      "total": 111285,
+      "partial_vaccinated": 97748,
+      "totally_vaccinated": 13537,
       "today": 0
     },
     {
@@ -449,9 +449,9 @@
       "id": 2,
       "title": "Andhra Pradesh",
       "state_name": "Andhra Pradesh",
-      "total": 7410928,
-      "partial_vaccinated": 5436684,
-      "totally_vaccinated": 1974244,
+      "total": 7425711,
+      "partial_vaccinated": 5443397,
+      "totally_vaccinated": 1982314,
       "today": 0
     },
     {
@@ -459,9 +459,9 @@
       "id": 3,
       "title": "Arunachal Pradesh",
       "state_name": "Arunachal Pradesh",
-      "total": 277659,
-      "partial_vaccinated": 207762,
-      "totally_vaccinated": 69897,
+      "total": 278983,
+      "partial_vaccinated": 208414,
+      "totally_vaccinated": 70569,
       "today": 0
     },
     {
@@ -469,29 +469,29 @@
       "id": 4,
       "title": "Assam",
       "state_name": "Assam",
-      "total": 3003012,
-      "partial_vaccinated": 2346417,
-      "totally_vaccinated": 656595,
-      "today": 0
+      "total": 3027314,
+      "partial_vaccinated": 2366679,
+      "totally_vaccinated": 660635,
+      "today": 28
     },
     {
       "state_id": 5,
       "id": 5,
       "title": "Bihar",
       "state_name": "Bihar",
-      "total": 7783672,
-      "partial_vaccinated": 6304936,
-      "totally_vaccinated": 1478736,
-      "today": 36
+      "total": 7906585,
+      "partial_vaccinated": 6412705,
+      "totally_vaccinated": 1493880,
+      "today": 10
     },
     {
       "state_id": 6,
       "id": 6,
       "title": "Chandigarh",
       "state_name": "Chandigarh",
-      "total": 250437,
-      "partial_vaccinated": 187441,
-      "totally_vaccinated": 62996,
+      "total": 254612,
+      "partial_vaccinated": 190204,
+      "totally_vaccinated": 64408,
       "today": 0
     },
     {
@@ -499,9 +499,9 @@
       "id": 7,
       "title": "Chhattisgarh",
       "state_name": "Chhattisgarh",
-      "total": 5842698,
-      "partial_vaccinated": 4958365,
-      "totally_vaccinated": 884333,
+      "total": 5857190,
+      "partial_vaccinated": 4963515,
+      "totally_vaccinated": 893675,
       "today": 0
     },
     {
@@ -509,9 +509,9 @@
       "id": 8,
       "title": "Dadra and Nagar Haveli",
       "state_name": "Dadra and Nagar Haveli",
-      "total": 50355,
-      "partial_vaccinated": 40349,
-      "totally_vaccinated": 10006,
+      "total": 50585,
+      "partial_vaccinated": 40424,
+      "totally_vaccinated": 10161,
       "today": 0
     },
     {
@@ -519,9 +519,9 @@
       "id": 9,
       "title": "Delhi",
       "state_name": "Delhi",
-      "total": 3905947,
-      "partial_vaccinated": 3044478,
-      "totally_vaccinated": 861469,
+      "total": 3907492,
+      "partial_vaccinated": 3045404,
+      "totally_vaccinated": 862088,
       "today": 0
     },
     {
@@ -529,9 +529,9 @@
       "id": 10,
       "title": "Goa",
       "state_name": "Goa",
-      "total": 392354,
-      "partial_vaccinated": 309344,
-      "totally_vaccinated": 83010,
+      "total": 394413,
+      "partial_vaccinated": 310955,
+      "totally_vaccinated": 83458,
       "today": 0
     },
     {
@@ -539,29 +539,29 @@
       "id": 11,
       "title": "Gujarat",
       "state_name": "Gujarat",
-      "total": 13881922,
-      "partial_vaccinated": 10676927,
-      "totally_vaccinated": 3204995,
-      "today": 27
+      "total": 14037417,
+      "partial_vaccinated": 10741285,
+      "totally_vaccinated": 3296132,
+      "today": 65
     },
     {
       "state_id": 12,
       "id": 12,
       "title": "Haryana",
       "state_name": "Haryana",
-      "total": 4288805,
-      "partial_vaccinated": 3573923,
-      "totally_vaccinated": 714882,
-      "today": 0
+      "total": 4345321,
+      "partial_vaccinated": 3612906,
+      "totally_vaccinated": 732415,
+      "today": 16
     },
     {
       "state_id": 13,
       "id": 13,
       "title": "Himachal Pradesh",
       "state_name": "Himachal Pradesh",
-      "total": 2058866,
-      "partial_vaccinated": 1699206,
-      "totally_vaccinated": 359660,
+      "total": 2065283,
+      "partial_vaccinated": 1702305,
+      "totally_vaccinated": 362978,
       "today": 0
     },
     {
@@ -569,39 +569,39 @@
       "id": 14,
       "title": "Jammu and Kashmir",
       "state_name": "Jammu and Kashmir",
-      "total": 2717990,
-      "partial_vaccinated": 2236601,
-      "totally_vaccinated": 481389,
-      "today": 0
+      "total": 2730485,
+      "partial_vaccinated": 2244682,
+      "totally_vaccinated": 485803,
+      "today": 6
     },
     {
       "state_id": 15,
       "id": 15,
       "title": "Jharkhand",
       "state_name": "Jharkhand",
-      "total": 3284894,
-      "partial_vaccinated": 2714239,
-      "totally_vaccinated": 570655,
-      "today": 0
+      "total": 3303138,
+      "partial_vaccinated": 2722931,
+      "totally_vaccinated": 580207,
+      "today": 10
     },
     {
       "state_id": 16,
       "id": 16,
       "title": "Karnataka",
       "state_name": "Karnataka",
-      "total": 10597469,
-      "partial_vaccinated": 8577389,
-      "totally_vaccinated": 2020080,
-      "today": 0
+      "total": 10643693,
+      "partial_vaccinated": 8591532,
+      "totally_vaccinated": 2052161,
+      "today": 27
     },
     {
       "state_id": 17,
       "id": 17,
       "title": "Kerala",
       "state_name": "Kerala",
-      "total": 7952029,
-      "partial_vaccinated": 6187289,
-      "totally_vaccinated": 1764740,
+      "total": 7952555,
+      "partial_vaccinated": 6187651,
+      "totally_vaccinated": 1764904,
       "today": 0
     },
     {
@@ -609,9 +609,9 @@
       "id": 18,
       "title": "Ladakh",
       "state_name": "Ladakh",
-      "total": 119522,
-      "partial_vaccinated": 83034,
-      "totally_vaccinated": 36488,
+      "total": 119665,
+      "partial_vaccinated": 83173,
+      "totally_vaccinated": 36492,
       "today": 0
     },
     {
@@ -619,9 +619,9 @@
       "id": 19,
       "title": "Lakshadweep",
       "state_name": "Lakshadweep",
-      "total": 25774,
-      "partial_vaccinated": 20263,
-      "totally_vaccinated": 5511,
+      "total": 26173,
+      "partial_vaccinated": 20349,
+      "totally_vaccinated": 5824,
       "today": 0
     },
     {
@@ -629,29 +629,29 @@
       "id": 20,
       "title": "Madhya Pradesh",
       "state_name": "Madhya Pradesh",
-      "total": 8634356,
-      "partial_vaccinated": 7201727,
-      "totally_vaccinated": 1432629,
-      "today": 0
+      "total": 8636229,
+      "partial_vaccinated": 7202463,
+      "totally_vaccinated": 1433766,
+      "today": 3
     },
     {
       "state_id": 21,
       "id": 21,
       "title": "Maharashtra",
       "state_name": "Maharashtra",
-      "total": 17947703,
-      "partial_vaccinated": 14629082,
-      "totally_vaccinated": 3318621,
-      "today": 3
+      "total": 18063565,
+      "partial_vaccinated": 14712379,
+      "totally_vaccinated": 3351186,
+      "today": 147
     },
     {
       "state_id": 22,
       "id": 22,
       "title": "Manipur",
       "state_name": "Manipur",
-      "total": 330507,
-      "partial_vaccinated": 263612,
-      "totally_vaccinated": 66895,
+      "total": 330718,
+      "partial_vaccinated": 263802,
+      "totally_vaccinated": 66916,
       "today": 0
     },
     {
@@ -659,9 +659,9 @@
       "id": 23,
       "title": "Meghalaya",
       "state_name": "Meghalaya",
-      "total": 343307,
-      "partial_vaccinated": 275400,
-      "totally_vaccinated": 67907,
+      "total": 343383,
+      "partial_vaccinated": 275458,
+      "totally_vaccinated": 67925,
       "today": 0
     },
     {
@@ -669,9 +669,9 @@
       "id": 24,
       "title": "Mizoram",
       "state_name": "Mizoram",
-      "total": 278203,
-      "partial_vaccinated": 231168,
-      "totally_vaccinated": 47035,
+      "total": 278252,
+      "partial_vaccinated": 231200,
+      "totally_vaccinated": 47052,
       "today": 0
     },
     {
@@ -679,9 +679,9 @@
       "id": 25,
       "title": "Nagaland",
       "state_name": "Nagaland",
-      "total": 218617,
-      "partial_vaccinated": 172228,
-      "totally_vaccinated": 46389,
+      "total": 219061,
+      "partial_vaccinated": 172658,
+      "totally_vaccinated": 46403,
       "today": 0
     },
     {
@@ -689,19 +689,19 @@
       "id": 26,
       "title": "Odisha",
       "state_name": "Odisha",
-      "total": 6191291,
-      "partial_vaccinated": 5056664,
-      "totally_vaccinated": 1134627,
-      "today": 0
+      "total": 6199643,
+      "partial_vaccinated": 5060998,
+      "totally_vaccinated": 1138645,
+      "today": 370
     },
     {
       "state_id": 27,
       "id": 27,
       "title": "Puducherry",
       "state_name": "Puducherry",
-      "total": 216758,
-      "partial_vaccinated": 176721,
-      "totally_vaccinated": 40037,
+      "total": 217271,
+      "partial_vaccinated": 176918,
+      "totally_vaccinated": 40353,
       "today": 0
     },
     {
@@ -709,9 +709,9 @@
       "id": 28,
       "title": "Punjab",
       "state_name": "Punjab",
-      "total": 3860415,
-      "partial_vaccinated": 3274367,
-      "totally_vaccinated": 586048,
+      "total": 3901288,
+      "partial_vaccinated": 3299093,
+      "totally_vaccinated": 602195,
       "today": 0
     },
     {
@@ -719,19 +719,19 @@
       "id": 29,
       "title": "Rajasthan",
       "state_name": "Rajasthan",
-      "total": 14087399,
-      "partial_vaccinated": 11435470,
-      "totally_vaccinated": 2651929,
-      "today": 0
+      "total": 14178278,
+      "partial_vaccinated": 11498850,
+      "totally_vaccinated": 2679428,
+      "today": 13
     },
     {
       "state_id": 30,
       "id": 30,
       "title": "Sikkim",
       "state_name": "Sikkim",
-      "total": 219141,
-      "partial_vaccinated": 164772,
-      "totally_vaccinated": 54369,
+      "total": 219312,
+      "partial_vaccinated": 164805,
+      "totally_vaccinated": 54507,
       "today": 0
     },
     {
@@ -739,19 +739,19 @@
       "id": 31,
       "title": "Tamil Nadu",
       "state_name": "Tamil Nadu",
-      "total": 6547013,
-      "partial_vaccinated": 4895791,
-      "totally_vaccinated": 1651222,
-      "today": 8
+      "total": 6570518,
+      "partial_vaccinated": 4906383,
+      "totally_vaccinated": 1664135,
+      "today": 3
     },
     {
       "state_id": 32,
       "id": 32,
       "title": "Telangana",
       "state_name": "Telangana",
-      "total": 5203123,
-      "partial_vaccinated": 4388684,
-      "totally_vaccinated": 814439,
+      "total": 5205231,
+      "partial_vaccinated": 4389593,
+      "totally_vaccinated": 815638,
       "today": 0
     },
     {
@@ -759,157 +759,157 @@
       "id": 33,
       "title": "Tripura",
       "state_name": "Tripura",
-      "total": 1419060,
-      "partial_vaccinated": 953005,
-      "totally_vaccinated": 466055,
-      "today": 0
+      "total": 1421667,
+      "partial_vaccinated": 953771,
+      "totally_vaccinated": 467896,
+      "today": 5
     },
     {
       "state_id": 34,
       "id": 34,
       "title": "Uttar Pradesh",
       "state_name": "Uttar Pradesh",
-      "total": 13695390,
-      "partial_vaccinated": 10915308,
-      "totally_vaccinated": 2780082,
-      "today": 2
+      "total": 13697852,
+      "partial_vaccinated": 10917081,
+      "totally_vaccinated": 2780771,
+      "today": 0
     },
     {
       "state_id": 35,
       "id": 35,
       "title": "Uttarakhand",
       "state_name": "Uttarakhand",
-      "total": 2349965,
-      "partial_vaccinated": 1768944,
-      "totally_vaccinated": 581021,
-      "today": 0
+      "total": 2373425,
+      "partial_vaccinated": 1777949,
+      "totally_vaccinated": 595476,
+      "today": 3
     },
     {
       "state_id": 36,
       "id": 36,
       "title": "West Bengal",
       "state_name": "West Bengal",
-      "total": 11952533,
-      "partial_vaccinated": 8823815,
-      "totally_vaccinated": 3128718,
-      "today": 0
+      "total": 11963862,
+      "partial_vaccinated": 8825922,
+      "totally_vaccinated": 3137940,
+      "today": 72
     },
     {
       "state_id": 37,
       "id": 37,
       "title": "Daman and Diu",
       "state_name": "Daman and Diu",
-      "total": 52983,
-      "partial_vaccinated": 42217,
-      "totally_vaccinated": 10766,
+      "total": 53201,
+      "partial_vaccinated": 42302,
+      "totally_vaccinated": 10899,
       "today": 0
     }
   ],
   "aefiPercentage": 0.015,
   "vaccinationByAge": {
-    "total": 133371261,
-    "vac_18_30": 5732019,
-    "vac_30_45": 11524058,
-    "vac_45_60": 61375353,
-    "above_60": 54722311
+    "total": 133857884,
+    "vac_18_30": 5873956,
+    "vac_30_45": 11666253,
+    "vac_45_60": 61512553,
+    "above_60": 54787569
   },
   "timeWiseTodayRegReport": [
     {
-      "ts": "2021-05-09 00",
-      "timestamps": "2021-05-09 01:00",
+      "ts": "2021-05-10 00",
+      "timestamps": "2021-05-10 01:00",
       "label": "00:00-01:00",
-      "total": "23333",
-      "age18": "19635",
-      "age45": "2515",
-      "age60": "1183",
-      "male": "13430",
-      "female": "9890",
-      "others": "13"
+      "total": "21306",
+      "age18": "17931",
+      "age45": "2311",
+      "age60": "1064",
+      "male": "12124",
+      "female": "9172",
+      "others": "10"
     },
     {
-      "ts": "2021-05-09 01",
-      "timestamps": "2021-05-09 02:00",
+      "ts": "2021-05-10 01",
+      "timestamps": "2021-05-10 02:00",
       "label": "01:00-02:00",
-      "total": "9254",
-      "age18": "7903",
-      "age45": "903",
-      "age60": "448",
-      "male": "5577",
-      "female": "3676",
-      "others": "1"
-    },
-    {
-      "ts": "2021-05-09 02",
-      "timestamps": "2021-05-09 03:00",
-      "label": "02:00-03:00",
-      "total": "4652",
-      "age18": "4030",
-      "age45": "412",
-      "age60": "210",
-      "male": "2977",
-      "female": "1670",
+      "total": "8245",
+      "age18": "7112",
+      "age45": "785",
+      "age60": "348",
+      "male": "5010",
+      "female": "3230",
       "others": "5"
     },
     {
-      "ts": "2021-05-09 03",
-      "timestamps": "2021-05-09 04:00",
+      "ts": "2021-05-10 02",
+      "timestamps": "2021-05-10 03:00",
+      "label": "02:00-03:00",
+      "total": "3780",
+      "age18": "3261",
+      "age45": "376",
+      "age60": "143",
+      "male": "2453",
+      "female": "1326",
+      "others": "1"
+    },
+    {
+      "ts": "2021-05-10 03",
+      "timestamps": "2021-05-10 04:00",
       "label": "03:00-04:00",
-      "total": "2954",
-      "age18": "2535",
-      "age45": "293",
-      "age60": "126",
-      "male": "1964",
-      "female": "988",
-      "others": "2"
+      "total": "2504",
+      "age18": "2150",
+      "age45": "241",
+      "age60": "113",
+      "male": "1696",
+      "female": "807",
+      "others": "1"
     },
     {
-      "ts": "2021-05-09 04",
-      "timestamps": "2021-05-09 05:00",
+      "ts": "2021-05-10 04",
+      "timestamps": "2021-05-10 05:00",
       "label": "04:00-05:00",
-      "total": "3181",
-      "age18": "2662",
-      "age45": "346",
-      "age60": "173",
-      "male": "2035",
-      "female": "1146",
-      "others": "0"
+      "total": "2839",
+      "age18": "2303",
+      "age45": "345",
+      "age60": "191",
+      "male": "1805",
+      "female": "1031",
+      "others": "3"
     },
     {
-      "ts": "2021-05-09 05",
-      "timestamps": "2021-05-09 06:00",
+      "ts": "2021-05-10 05",
+      "timestamps": "2021-05-10 06:00",
       "label": "05:00-06:00",
-      "total": "6264",
-      "age18": "5283",
-      "age45": "656",
-      "age60": "325",
-      "male": "4140",
-      "female": "2120",
+      "total": "6316",
+      "age18": "5321",
+      "age45": "690",
+      "age60": "305",
+      "male": "4094",
+      "female": "2218",
       "others": "4"
     },
     {
-      "ts": "2021-05-09 06",
-      "timestamps": "2021-05-09 07:00",
+      "ts": "2021-05-10 06",
+      "timestamps": "2021-05-10 07:00",
       "label": "06:00-07:00",
-      "total": "21379",
-      "age18": "18217",
-      "age45": "2238",
-      "age60": "924",
-      "male": "13206",
-      "female": "8160",
-      "others": "13"
+      "total": "24251",
+      "age18": "20301",
+      "age45": "2804",
+      "age60": "1146",
+      "male": "14965",
+      "female": "9265",
+      "others": "21"
     },
     {
-      "ts": "2021-05-09 07",
-      "timestamps": "2021-05-09 08:00",
+      "ts": "2021-05-10 07",
+      "timestamps": "2021-05-10 08:00",
       "label": "07:00-08:00",
-      "total": "50360",
-      "age18": "42024",
-      "age45": "5924",
-      "age60": "2412",
-      "male": "29909",
-      "female": "20426",
-      "others": "25"
+      "total": "63736",
+      "age18": "52793",
+      "age45": "7778",
+      "age60": "3165",
+      "male": "37218",
+      "female": "26480",
+      "others": "38"
     }
   ],
-  "timestamp": "2021-05-09 02:32:13"
+  "timestamp": "2021-05-10 02:32:05"
 }
